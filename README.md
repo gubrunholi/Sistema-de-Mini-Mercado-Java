@@ -2,6 +2,13 @@
 
 Sistema desenvolvido em Java para gerenciamento de um mini mercado utilizando terminal (console).
 
+# 👨‍💻 Participantes
+
+- Antonio Augusto
+- Gustavo Brunholi
+- Gustavo Batista
+- Leonardo Cordeiro
+
 ## 📚 Funcionalidades
 
 - CRUD de Produtos
@@ -196,15 +203,6 @@ O sistema mantém os dados salvos mesmo após fechar o programa.
 
 ---
 
-# 👨‍💻 Participantes
-
-- Antonio Augusto
-- Gustavo Brunholi
-- Gustavo Batista
-- Leonardo Cordeiro
-
----
-
 ## 💾 Persistência de Dados
 
 Os dados são armazenados em:
@@ -213,15 +211,6 @@ Os dados são armazenados em:
 - clientes.csv
 
 O sistema salva automaticamente os dados.
-
----
-
-## 👨‍💻 Participantes
-
-- Antonio Augusto
-- Gustavo Brunholi
-- Gustavo Batista
-- Leonardo Cordeiro
 
 ---
 
