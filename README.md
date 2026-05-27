@@ -1,80 +1,80 @@
 # 🛒 Projeto A3 — Sistema de Mini Mercado
 
-Sistema desenvolvido em Java para gerenciamento de um mini mercado utilizando terminal (console).
+Sistema desenvolvido em Java para gerenciamento de um mini mercado utilizando interface em terminal (console).
 
-# 👨‍💻 Participantes
-
-- [Antonio Augusto](https://github.com/auguxtodev) - 8261103548
-- Gustavo Batista - 8261100192
-- [Gustavo Brunholi](https://github.com/gubrunholi) - 826189478
-- [Leonardo Cordeiro](https://github.com/itslcordeiro) - 8261113737
-
-## 📚 Funcionalidades
-
-- CRUD de Produtos
-- CRUD de Clientes
-- Controle de Estoque
-- Realização de Compras
-- Persistência de Dados em CSV
-- Sistema totalmente em terminal
+O projeto permite realizar operações de cadastro, controle de estoque e gerenciamento de compras com persistência de dados em arquivos CSV.
 
 ---
 
-## 🧠 Conceitos Utilizados
+# 📚 Sobre o Projeto
+
+Este sistema foi desenvolvido como projeto acadêmico da disciplina de Programação Java, com foco na aplicação prática de conceitos fundamentais de lógica de programação, orientação a objetos e manipulação de arquivos.
+
+---
+
+# 🔗 Documentação Base do Professor
+
+Este projeto foi desenvolvido seguindo as orientações e estrutura disponibilizadas pelo professor da disciplina.
+
+📎 Referência utilizada:  
+[Documentação Base do Professor](https://github.com/mmamorim/Algoritmos-2026-1-mooca/blob/main/projetoA3.md)
+
+---
+
+# 👨‍💻 Participantes
+
+- [Antonio Augusto](https://github.com/auguxtodev) — 8261103548
+- Gustavo Batista — 8261100192
+- [Gustavo Brunholi](https://github.com/gubrunholi) — 826189478
+- [Leonardo Cordeiro](https://github.com/itslcordeiro) — 8261113737
+
+---
+
+# ⚙️ Funcionalidades
+
+## 📦 Produtos
+- Cadastro de produtos
+- Atualização de informações
+- Exclusão de produtos
+- Listagem de produtos
+
+## 👤 Clientes
+- Cadastro de clientes
+- Atualização de dados
+- Remoção de clientes
+- Listagem de clientes
+
+## 📊 Estoque
+- Controle de quantidade
+- Atualização automática do estoque
+- Verificação de disponibilidade
+
+## 🛒 Compras
+- Realização de compras
+- Registro das operações
+- Atualização do estoque após venda
+
+## 💾 Persistência de Dados
+- Salvamento automático em arquivos CSV
+- Leitura dos dados ao iniciar o sistema
+
+---
+
+# 🧠 Conceitos Utilizados
 
 - Variáveis e Tipos de Dados
 - Estruturas Condicionais
 - Estruturas de Repetição
-- Vetores/Listas
+- Métodos
 - Modularização
 - Classes e Objetos
-- Persistência em Arquivos CSV
-- Organização de Código
+- Encapsulamento
+- Manipulação de Arquivos CSV
+- Organização em Pacotes
 
 ---
 
-## 📂 Estrutura do Projeto
-
-```
-src/
- ├── model
- ├── service
- ├── util
- └── Main.java
-```
-
----
-
-# ▶️ Tutorial Completo — Como Rodar o Projeto
-
-## ✅ Pré-requisitos
-
-Antes de executar o projeto, você precisa ter instalado:
-
-- Java JDK 17 ou superior
-- VSCode, IntelliJ ou Eclipse
-
-Para verificar se o Java está instalado, abra o terminal e digite:
-
-```powershell
-java -version
-```
-
-Se aparecer a versão do Java, está tudo certo.
-
----
-
-# 📥 Baixando o Projeto
-
-1. Baixe o projeto ZIP
-2. Extraia a pasta
-3. Abra a pasta do projeto no VSCode ou outra IDE Java
-
----
-
-# 📂 Estrutura Correta
-
-O projeto deve ficar assim:
+# 📂 Estrutura do Projeto
 
 ```text
 mini-mercado-projeto/
@@ -87,133 +87,20 @@ mini-mercado-projeto/
 │
 ├── produtos.csv
 ├── clientes.csv
-└── README.md
+├── README.md
+└── TUTORIAL.md
 ```
 
 ---
 
-# ▶️ Executando pelo VSCode
+# 🏆 Projeto Acadêmico
 
-## Método 1 — Mais Fácil
-
-1. Abra a pasta do projeto
-2. Vá até:
-
-```text
-src/Main.java
-```
-
-3. Clique no botão:
-
-```text
-Run Java
-```
-
-ou no ▶️ no canto superior direito.
+Projeto desenvolvido para fins acadêmicos na disciplina de Algoritmos e Programação.
 
 ---
 
-# 💻 Executando pelo Terminal
+# ▶️ Como Executar o Projeto
 
-## 1. Abra o terminal na pasta `src`
+📘 Acesse o tutorial completo de execução:
 
-Exemplo:
-
-```powershell
-cd "C:\Users\SEU_USUARIO\Documents\mini-mercado-projeto\src"
-```
-
----
-
-## 2. Compile o projeto
-
-No PowerShell do Windows:
-
-```powershell
-javac Main.java model\*.java service\*.java util\*.java
-```
-
----
-
-## 3. Execute o sistema
-
-```powershell
-java Main
-```
-
----
-
-# ✅ Resultado Esperado
-
-Ao executar corretamente, aparecerá:
-
-```text
-====================================
-      MINI MERCADO - MENU
-====================================
-1. Produtos
-2. Clientes
-3. Realizar Compra
-4. Controle de Estoque
-0. Sair
-```
-
----
-
-# ⚠️ Possíveis Erros
-
-## Erro: package does not exist
-
-Isso acontece quando você tenta executar um arquivo separado.
-
-✅ Solução:
-
-Sempre compile TODOS os arquivos juntos usando:
-
-```powershell
-javac Main.java model\*.java service\*.java util\*.java
-```
-
----
-
-## Erro: NoClassDefFoundError
-
-Esse erro acontece quando o projeto não foi compilado corretamente.
-
-✅ Solução:
-
-Compile novamente todos os arquivos e execute apenas:
-
-```powershell
-java Main
-```
-
----
-
-# 💾 Arquivos CSV
-
-Os dados são salvos automaticamente em:
-
-```text
-produtos.csv
-clientes.csv
-```
-
-O sistema mantém os dados salvos mesmo após fechar o programa.
-
----
-
-## 💾 Persistência de Dados
-
-Os dados são armazenados em:
-
-- produtos.csv
-- clientes.csv
-
-O sistema salva automaticamente os dados.
-
----
-
-## 🏆 Projeto Acadêmico
-
-Projeto desenvolvido para a disciplina de Programação Java.
+➡️ [TUTORIAL.md](./TUTORIAL.md)
