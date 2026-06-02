@@ -24,7 +24,7 @@ Este projeto foi desenvolvido seguindo as orientações e estrutura disponibiliz
 # 👨‍💻 Participantes
 
 - [Antonio Augusto](https://github.com/auguxtodev) — 8261103548
-- Gustavo Batista — 8261100192
+- [Gustavo Batista](https://github.com/gustavoprog1900) — 8261100192
 - [Gustavo Brunholi](https://github.com/gubrunholi) — 826189478
 - [Leonardo Cordeiro](https://github.com/itslcordeiro) — 8261113737
 
